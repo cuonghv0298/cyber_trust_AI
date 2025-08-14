@@ -1,0 +1,109 @@
+Question,Category,Sub-category / Clause,Audience
+Any disciplinary actions for employees who fail to comply with data-security policy?,Assets – People,A.1.4,HR 
+"Is there any internal or external training you and your staff attended before? Any record (e.g., email or invoices) to prove?",Assets – People,A.1.4a,HR 
+Any existing cyber-hygiene practices and guidelines for employees’ daily operations?,Assets – People,A.1.4b,HR 
+"Are the training topics covering phishing, password management, etc.? Share the topics or training guides.",Assets – People,A.1.4c,HR 
+Is the cybersecurity training tailored based on the roles of the employees? Does everyone receive the same training?,Assets – People,A.1.4c,HR 
+How do you test that trainees walk away with the required knowledge? Is there a quiz conducted?,Assets – People,A.1.4e,HR 
+How often do you conduct cybersecurity awareness trainings?,Assets – People,A.1.4e,HR 
+What operating system is used for end-user devices and applications currently?,Hardware and Software,A.2.4a,IT
+Are there any machines running that you might not be aware of? Who provides that information?,Hardware and Software,A.2.4a,IT
+"Does the asset inventory include all types of hardware in use, such as servers, network devices, laptops, computers, mobile devices and IoT devices?",Hardware and Software,A.2.4.b,IT
+"Does your hardware asset inventory include all required details: name/model, serial number, type, location, network address, owner, classification, department, approval date, and end-of-support date?",Hardware and Software,A.2.4.c,IT
+"Does your software asset inventory include all applications, including those hosted on cloud instances? ",Hardware and Software,A.2.4.d,IT
+"Does your software asset inventory include all required details: name, publisher, version, business purpose, classification, approval date, and end-of-support date?",Hardware and Software,A.2.4.e,IT
+Is your hardware and software asset inventory reviewed at least twice per year?,Hardware and Software,A.2.4.f,IT
+"Do you know whether the OS used is already end-of-support? If yes, what is the process of replacing/upgrading?",Hardware and Software,A.2.4g,IT
+"Is anyone monitoring whether the OS in use is no longer supported by the vendor (e.g., Microsoft)?",Hardware and Software,A.2.4g,IT
+"If assests reach end-of-support, is there a documented risk assessment, approval from senior management and monitoring procedure until replacement?",Hardware and Software,A.2.4.h,IT
+What is the authorisation process to onboard new hardware and software into the organisation?,Hardware and Software,A.2.4.i,IT
+Is the assent inventory list constantly updated with the date of authorisation of software and hardware?,Hardware and Software,A.2.4.j,IT
+What is the current procedure to dispose of physical and software assests without approval dates?,Hardware and Software,A.2.4k,IT
+"Are there any procedures in place for secure media destruction (e.g., USB drives)?",Hardware and Software,"A.2.4l, A.2.4.m",IT
+Who are your primary customers (B2B or B2C)? What services do you provide?,Data,A.3.4,Owner
+ What are the company’s critical functions?,Data,A.3.4,Owner
+Any regulations besides PDPA that your company must comply with?,Data,A.3.4,Owner
+Do you know what data must be protected?,Data,A.3.4a,IT
+Where are these data stored? Are they encrypted? How are the keys managed and stored?,Data,A.3.4a,IT
+"Have you classified data by sensitivity (Public, Confidential, Internal)?",Data,A.3.4a,IT
+Are security measures and access controls applied based on data-classification levels?,Data,A.3.4a,IT
+"Where are data located, and what are the retention periods?",Data,A.3.4a,IT
+How often is the inventory list being reviewed?,Data,A.3.4.b,IT
+"Do you establish measures like password protecting documents, encrypt personal data and emails to protect critical data? ",Data,A.3.4.c,IT
+What measures do you take to ensure that employees do not leak confidential company data?,Data,A.3.4.d,IT
+Do you a procedure to dispose of hard copy media? Any paper shredders?,Data,A.3.4.e,IT
+"Any vulnerability-assessment (VA) scans conducted? Can you share frequency and remediation details, and who manages this?",Secure/Protect: Virus and Malware Protection,A.4.4,IT
+"Are there any security controls (e.g., EDR) installed on machines?",Secure/Protect: Virus and Malware Protection,A.4.4a,IT
+Any anti-malware solutions in place?,Secure/Protect: Virus and Malware Protection,A.4.4b,IT
+Are the anti-malware solutions set to auto update at least daily or as frequently as possible?,Secure/Protect: Virus and Malware Protection,A.4.4.c,IT
+Is the anti-malware solution set to automatically scan files upon access?,Secure/Protect: Virus and Malware Protection,A.4.4.d,IT
+Are website-whitelisting controls implemented (employees can only visit whitelisted sites)?,Secure/Protect: Virus and Malware Protection,A.4.4e,IT
+Is there a firewall? Are rules in place to filter malicious traffic and block malicious IPs?,Secure/Protect: Virus and Malware Protection,A.4.4.f,IT
+Is there firewall configured to accept only authorised network traffic into the organisation network?,Secure/Protect: Virus and Malware Protection,A.4.4.f,IT
+"Is there a software firewall being configured? If so, is it switched on for all endpoints in the organisation?",Secure/Protect: Virus and Malware Protection,A.4.4.g,IT
+How often are the firewall rules being reviewed?,Secure/Protect: Virus and Malware Protection,A.4.4.h,IT
+Are firewalls installed and enabled on employee's mobile and IoT devices where possible?,Secure/Protect: Virus and Malware Protection,A.4.4.i,IT
+What measures are in place to ensure that employees can only install / access authorised software / documents? ,Secure/Protect: Virus and Malware Protection,A.4.4.j,IT
+"Are employees aware of the use of trusted network connections (eg. VPN, corporate Wi-Fi) for accessing business data? ",Secure/Protect: Virus and Malware Protection,A.4.4.k,IT
+Are employees aware of the need to report suspicious emails or attachment immediately?,Secure/Protect: Virus and Malware Protection,A.4.4.l,IT
+What is the current process for reporting a stolen or lost corporate device?,Secure/Protect: Access Control,A.5.4,IT
+Is there a permanent office location?,Secure/Protect: Access Control,A.5.4,IT
+Is there a list of login accounts for all workstations and servers?,Secure/Protect: Access Control,A.5.4a,IT
+Does the organization maintain a list of personal devices used to access its networks?,Secure/Protect: Access Control,A.5.4a,IT
+"Does the account inventory list at least include the following? Name, username, department, Role/account type, Date of access created, Last logon date. ",Secure/Protect: Access Control,A.5.4.b,IT
+Is there a formal process (with approvals) to grant and revoke access?,Secure/Protect: Access Control,A.5.4c,IT
+Is there an access-control policy?,Secure/Protect: Access Control,A.5.4c,IT
+Does the access-control policy ensure that employees can only access the required data for their job role?,Secure/Protect: Access Control,A.5.4.d,IT
+Is there a process to remove access to data for employees who have reach the end of contract?,Secure/Protect: Access Control,A.5.4.e,IT
+Is administrative access only granted with approval from senior management?,Secure/Protect: Access Control,A.5.4.f,IT
+"Is third-party or contractor access limited to required information and systems, and removed when no longer needed?",Secure/Protect: Access Control,A.5.4.g,IT
+Is there a non-disclosure agreement form for third-party or contractor to sign to prevent data leakage?,Secure/Protect: Access Control,A.5.4.h,IT
+"What physical access controls are in place (e.g., card-access door locks)?",Secure/Protect: Access Control,A.5.4i,IT
+How often are account reviews carried out?,Secure/Protect: Access Control,A.5.4.j,IT
+Is there a process to remove an account which has been inactive for a prolonged period?,Secure/Protect: Access Control,A.5.4.k,IT
+"Is a password policy being enforced? Does all passwords have at least 12 characters, including upper and lower case, and/or special characters? ",Secure/Protect: Access Control,A.5.4.l,IT
+"Are there endpoint controls to detect abnormal account access (e.g., multiple failed logins, logins at odd hours)?",Secure/Protect: Access Control,A.5.4m,IT
+Does the password policy account for the password reset of a compromised account?,Secure/Protect: Access Control,A.5.4.n,IT
+Is multi-factor authentication (MFA) implemented (2FA)?,Secure/Protect: Access Control,A.5.4o,IT
+Is there a trusted software to manage passphrases for employees?,Secure/Protect: Access Control,A.5.4.p,IT
+Who manages your computer network? Is there a network diagram?,Secure/Protect: Secure Configuration,A.6.4a,IT
+Is there a secondary DNS server available?,Secure/Protect: Secure Configuration,A.6.4a,IT
+"Does the company maintain a local server (on-premises) or use the cloud? Are staff allowed external access (e.g., from home)?",Secure/Protect: Secure Configuration,A.6.4a,IT
+"If external access is allowed, is there a VPN for personal devices or other wireless access points?",Secure/Protect: Secure Configuration,A.6.4a,IT
+Are your wireless networks visible from outside the office? Is the SSID hidden?,Secure/Protect: Secure Configuration,A.6.4a,IT
+"If data is stored physically on-site, does the location have CCTV and security guards? Who has access?",Secure/Protect: Secure Configuration,A.6.4a,IT
+"What other physical controls exist (e.g., visitor sign-in, employee access cards)?",Secure/Protect: Secure Configuration,A.6.4a,IT
+Are weak or default configuration (e.g. default passwords) avoided or updated before use?,Secure/Protect: Secure Configuration,A.6.4.b,IT
+"Are insecure configuration and weak protocols (e.g. HTTP, WEP) replaced or upgraded?",Secure/Protect: Secure Configuration,A.6.4.c,IT
+"Are unused features, services or applications disabled or removed?",Secure/Protect: Secure Configuration,A.6.4.d,IT
+Is automatic connection to open networks and auto-run of non-essential programs disabled?,Secure/Protect: Secure Configuration,A.6.4.e,IT
+Is logging enabled for software and hardware asssets where feasible?,Secure/Protect: Secure Configuration,A.6.4.f,IT
+Is there a session log out enabled after 15 minutes of inactivity for user sessions?,Secure/Protect: Secure Configuration,A.6.4.g,IT
+"If mobile, IoT or cloud assets are used, are there appropriate security measures in place (e.g. network segregation, cloud monitoring, logging)?",Secure/Protect: Secure Configuration,A.6.4.h,IT
+What is the frequency of patching for software and operating‐system vulnerabilities?,Update: Software Updates,A.7.4.a,IT
+Are compatibility tests performed on updates before installation?,Update: Software Updates,A.7.4.b,IT
+Are automatic updates enabled for critical patches where feasible?,Update: Software Updates,A.7.4.c,IT
+"If you use mobile, IoT, or cloud assets, are updates/patches only from trusted sources, IoT devices replaced if unpatched, and cloud shared responsibility understood?",Update: Software Updates,A.7.4.d,IT
+Any backup solution for critical services and data?,Backup: Backup Essential Data,A.8.4a,IT
+Are backups performed regularly and stored securely?,Backup: Backup Essential Data,A.8.4a,IT
+What is the backup plan if systems are down or affected?,Backup: Backup Essential Data,A.8.4a,IT
+"Is there a formal backup policy (systems covered, frequency, storage, recovery testing)?",Backup: Backup Essential Data,A.8.4a,IT
+Are backup data encrypted?,Backup: Backup Essential Data,A.8.4a,IT
+"Are backups performed on a regular basis, with the frequency determined by business requirements and data loss tolerance?",Backup: Backup Essential Data,A.8.4.b,IT
+"Are backups of non-business-critical systems or non-essential information performed, even at lower frequency?",Backup: Backup Essential Data,A.8.4.c,IT
+Is the backup process automated where feasible?,Backup: Backup Essential Data,A.8.4.d,IT
+"If you use cloud assets, is the shared responsibility model for backup understood and implemented?",Backup: Backup Essential Data,A.8.4.e,IT
+"If you use mobile or IoT assets, are essential data backed up appropriately?",Backup: Backup Essential Data,A.8.4.f,IT
+Are backups protected from unauthorized access and restricted to authorized personnel only? Is there at least a password protection for the backup?,Backup: Backup Essential Data,A.8.4.g,IT
+"Are backups stored separately (offline) from the operating environment, and where feasible, stored offsite?",Backup: Backup Essential Data,A.8.4.h,IT
+Are frequent backups stored online for quick recovery?,Backup: Backup Essential Data,A.8.4.i,IT
+"Are longer term backups stored offline in a secure external location? For example, password-protected USB flash drive?",Backup: Backup Essential Data,A.8.4.j,IT
+Are backups tested at least bi-annually to ensure effective restoration?,Backup: Backup Essential Data,A.8.4.k,IT
+Is there a process for employees to report suspicious emails or attachments?,Respond: Incident Response,A.9.4,IT
+"Do floods or other natural occurrences affect operations? If so, what is the disaster-recovery plan (e.g., for fire or flood destroying customer data)?",Respond: Incident Response,A.9.4,IT
+Is there a business-continuity plan in place?,Respond: Incident Response,A.9.4a,IT
+Is there an incident-response plan (IRP) for cybersecurity and data breaches?,Respond: Incident Response,A.9.4a,IT
+"Does the incident-response plan include responsibilities of key personnel, procedures to detect,respond and recover from the threat and a communication timeline?",Respond: Incident Response,A.9.4.a,IT
+Are all employees aware of the incident response plan? How do you make sure?,Respond: Incident Response,A.9.4.b,IT
+Is there a post-incident review to incorporate learning points and to strengthen and improve the incident response  plan?,Respond: Incident Response,A.9.4.c,IT
+Is the incident response plan at least reviewed anually?,Respond: Incident Response,A.9.4.d,IT

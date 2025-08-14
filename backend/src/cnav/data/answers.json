@@ -1,0 +1,313 @@
+[
+    {
+        "_id": "ans_001",
+        "question_id": "1",
+        "company_id": "tech_solutions_ltd",
+        "answer": "Yes, we perform daily automated backups of our critical services including our customer database, source code repositories, and financial records. Backups are stored on encrypted AWS S3 buckets with cross-region replication to Singapore and Sydney. We also maintain offline backups on encrypted external drives stored in a fireproof safe offsite.",
+        "answered_by": "John Smith - IT Manager",
+        "answered_at": "2024-01-15T09:30:00Z",
+        "status": "submitted",
+        "confidence_level": "high",
+        "evidence_files": [
+            {
+                "filename": "backup_policy_v2.1.pdf",
+                "file_type": "pdf",
+                "description": "Comprehensive backup policy document outlining procedures and schedules",
+                "file_path": "uploads/backup_policy_v2.1.pdf",
+                "uploaded_at": "2024-01-15T09:32:00Z"
+            },
+            {
+                "filename": "aws_backup_config_screenshot.png",
+                "file_type": "png", 
+                "description": "Screenshot showing AWS backup configuration and schedule",
+                "file_path": "uploads/aws_backup_config_screenshot.png",
+                "uploaded_at": "2024-01-15T09:33:00Z"
+            }
+        ],
+        "evidence_description": "Backup policy document and AWS configuration screenshots provided as evidence",
+        "compliance_notes": "Strong backup procedures in place with both cloud and offline storage",
+        "extracted_keywords": ["backup", "critical", "encrypted", "daily", "AWS", "cross-region"],
+        "risk_level": "low",
+        "last_updated_at": "2024-01-15T09:35:00Z"
+    },
+    {
+        "_id": "ans_002", 
+        "question_id": "2",
+        "company_id": "tech_solutions_ltd",
+        "answer": "Yes, we have a documented backup policy last updated in December 2023. Critical systems backed up daily include: customer database, Git repositories, financial systems. Weekly backups for employee records and project documentation. Monthly full system backups. Recovery testing performed quarterly with last test conducted in November 2023 - successful restoration within 4 hours.",
+        "answered_by": "John Smith - IT Manager",
+        "answered_at": "2024-01-15T10:15:00Z", 
+        "status": "submitted",
+        "confidence_level": "high",
+        "evidence_files": [
+            {
+                "filename": "backup_policy_v2.1.pdf",
+                "file_type": "pdf",
+                "description": "Complete backup policy with schedules and recovery procedures",
+                "file_path": "uploads/backup_policy_v2.1.pdf",
+                "uploaded_at": "2024-01-15T10:16:00Z"
+            },
+            {
+                "filename": "recovery_test_report_nov2023.docx",
+                "file_type": "docx",
+                "description": "Recovery test report from November 2023",
+                "file_path": "uploads/recovery_test_report_nov2023.docx",
+                "uploaded_at": "2024-01-15T10:17:00Z"
+            }
+        ],
+        "evidence_description": "Backup policy and recent recovery test documentation provided",
+        "compliance_notes": "Comprehensive backup policy with regular testing - exceeds minimum requirements",
+        "extracted_keywords": ["backup", "policy", "daily", "weekly", "quarterly", "recovery", "testing"],
+        "risk_level": "low"
+    },
+    {
+        "_id": "ans_003",
+        "question_id": "6", 
+        "company_id": "tech_solutions_ltd",
+        "answer": "Our primary customers are B2B clients, predominantly small to medium enterprises in the retail and logistics sectors. We provide cloud-based inventory management software as a service (SaaS), including real-time stock tracking, automated reordering, and analytics dashboards. We currently serve 45 active clients with approximately 1,200 end users across Southeast Asia.",
+        "answered_by": "Sarah Wong - CEO",
+        "answered_at": "2024-01-15T11:00:00Z",
+        "status": "submitted", 
+        "confidence_level": "very_high",
+        "evidence_files": [
+            {
+                "filename": "company_profile_2024.pdf",
+                "file_type": "pdf",
+                "description": "Official company profile with service descriptions",
+                "file_path": "uploads/company_profile_2024.pdf",
+                "uploaded_at": "2024-01-15T11:01:00Z"
+            }
+        ],
+        "evidence_description": "Company profile document detailing services and target market",
+        "compliance_notes": "Clear business context established - helps define scope and risk profile",
+        "extracted_keywords": ["B2B", "SaaS", "cloud-based", "inventory", "retail", "logistics"],
+        "risk_level": "low"
+    },
+    {
+        "_id": "ans_004",
+        "question_id": "8",
+        "company_id": "tech_solutions_ltd", 
+        "answer": "End-user workstations run Windows 11 Pro (18 machines) and macOS Ventura (4 machines). Our production servers run Ubuntu 22.04 LTS and Windows Server 2022. Development environment uses Docker containers on Ubuntu 22.04 LTS hosts. Database servers run on managed AWS RDS with automatic patching enabled.",
+        "answered_by": "John Smith - IT Manager",
+        "answered_at": "2024-01-15T11:30:00Z",
+        "status": "submitted",
+        "confidence_level": "high", 
+        "evidence_files": [
+            {
+                "filename": "system_inventory_jan2024.xlsx",
+                "file_type": "xlsx",
+                "description": "Complete hardware and software inventory including OS versions",
+                "file_path": "uploads/system_inventory_jan2024.xlsx", 
+                "uploaded_at": "2024-01-15T11:31:00Z"
+            }
+        ],
+        "evidence_description": "Detailed system inventory spreadsheet showing all OS versions and patch levels",
+        "compliance_notes": "All systems running supported OS versions with current security updates",
+        "extracted_keywords": ["Windows", "macOS", "Ubuntu", "supported", "patching", "AWS", "RDS"],
+        "risk_level": "low"
+    },
+    {
+        "_id": "ans_005",
+        "question_id": "11",
+        "company_id": "tech_solutions_ltd",
+        "answer": "Yes, we maintain both hardware and software asset inventories in Excel spreadsheets, updated monthly by our IT Manager. Hardware inventory includes all laptops, desktops, servers, network equipment with serial numbers, purchase dates, and warranty information. Software inventory tracks all licenses, versions, and renewal dates. Both inventories were last updated on January 1st, 2024.",
+        "answered_by": "John Smith - IT Manager", 
+        "answered_at": "2024-01-15T12:00:00Z",
+        "status": "submitted",
+        "confidence_level": "high",
+        "evidence_files": [
+            {
+                "filename": "hardware_inventory_jan2024.xlsx",
+                "file_type": "xlsx",
+                "description": "Complete hardware asset inventory with serial numbers and warranty info",
+                "file_path": "uploads/hardware_inventory_jan2024.xlsx",
+                "uploaded_at": "2024-01-15T12:01:00Z"
+            },
+            {
+                "filename": "software_inventory_jan2024.xlsx", 
+                "file_type": "xlsx",
+                "description": "Software license inventory with versions and renewal dates",
+                "file_path": "uploads/software_inventory_jan2024.xlsx",
+                "uploaded_at": "2024-01-15T12:02:00Z"
+            }
+        ],
+        "evidence_description": "Current hardware and software inventory spreadsheets provided",
+        "compliance_notes": "Good asset management practices - inventories are current and comprehensive", 
+        "extracted_keywords": ["inventory", "hardware", "software", "monthly", "updated", "licenses"],
+        "risk_level": "low"
+    },
+    {
+        "_id": "ans_006",
+        "question_id": "13",
+        "company_id": "tech_solutions_ltd",
+        "answer": "Yes, we have Bitdefender GravityZone Business Security installed on all endpoints including laptops and desktops. It provides real-time antivirus, anti-malware, web protection, and firewall. We also use Microsoft Defender for cloud workloads and have Crowdstrike Falcon Go for advanced threat detection on critical systems. All solutions are centrally managed with automatic updates enabled.",
+        "answered_by": "John Smith - IT Manager",
+        "answered_at": "2024-01-15T12:30:00Z",
+        "status": "submitted",
+        "confidence_level": "high",
+        "evidence_files": [
+            {
+                "filename": "endpoint_security_dashboard.png",
+                "file_type": "png", 
+                "description": "Screenshot of Bitdefender management console showing protected endpoints",
+                "file_path": "uploads/endpoint_security_dashboard.png",
+                "uploaded_at": "2024-01-15T12:31:00Z"
+            },
+            {
+                "filename": "security_software_licenses.pdf",
+                "file_type": "pdf",
+                "description": "License documentation for security software",
+                "file_path": "uploads/security_software_licenses.pdf",
+                "uploaded_at": "2024-01-15T12:32:00Z"
+            }
+        ],
+        "evidence_description": "Management console screenshots and license documentation provided",
+        "compliance_notes": "Multiple layers of endpoint protection with centralized management - exceeds basic requirements",
+        "extracted_keywords": ["Bitdefender", "antivirus", "anti-malware", "firewall", "automatic", "updates"],
+        "risk_level": "low"
+    },
+    {
+        "_id": "ans_007",
+        "question_id": "15",
+        "company_id": "tech_solutions_ltd",
+        "answer": "We have a basic business continuity plan documented, but it hasn't been updated since 2022 and we haven't conducted any drills or testing. The plan covers basic scenarios like office evacuation and power outages, but doesn't adequately address cyber incidents like ransomware attacks. We know this needs improvement.",
+        "answered_by": "Sarah Wong - CEO",
+        "answered_at": "2024-01-15T13:00:00Z",
+        "status": "requires_clarification",
+        "confidence_level": "medium",
+        "evidence_files": [
+            {
+                "filename": "bcp_plan_2022.pdf",
+                "file_type": "pdf",
+                "description": "Existing business continuity plan from 2022 - needs updating",
+                "file_path": "uploads/bcp_plan_2022.pdf",
+                "uploaded_at": "2024-01-15T13:01:00Z"
+            }
+        ],
+        "evidence_description": "Outdated BCP document provided - acknowledges need for improvement",
+        "compliance_notes": "BCP exists but is outdated and lacks cyber incident coverage - requires updating",
+        "extracted_keywords": ["business", "continuity", "plan", "outdated", "2022", "cyber", "incidents"],
+        "risk_level": "medium",
+        "reviewer_notes": "Plan needs to be updated to include cyber incident response procedures and should be tested regularly"
+    },
+    {
+        "_id": "ans_008",
+        "question_id": "21",
+        "company_id": "tech_solutions_ltd",
+        "answer": "Yes, we have a Fortigate 60F firewall protecting our office network perimeter. Basic rules are configured to block common malicious ports and we have some IP blocklisting in place. However, we haven't reviewed or updated the firewall rules in over 6 months and rely mostly on default configurations. We don't currently have detailed logging or monitoring of firewall activities.",
+        "answered_by": "John Smith - IT Manager",
+        "answered_at": "2024-01-15T13:30:00Z",
+        "status": "requires_clarification", 
+        "confidence_level": "medium",
+        "evidence_files": [
+            {
+                "filename": "fortigate_basic_config.txt",
+                "file_type": "txt",
+                "description": "Basic firewall configuration export - may need security review before sharing complete config",
+                "file_path": "uploads/fortigate_basic_config.txt",
+                "uploaded_at": "2024-01-15T13:31:00Z"
+            }
+        ],
+        "evidence_description": "Basic firewall configuration provided - full config requires security review",
+        "compliance_notes": "Firewall present but configuration and management practices need improvement",
+        "extracted_keywords": ["Fortigate", "firewall", "rules", "blocklisting", "default", "logging"],
+        "risk_level": "medium",
+        "reviewer_notes": "Firewall rules should be reviewed and updated regularly. Enhanced logging and monitoring recommended."
+    },
+    {
+        "_id": "ans_009",
+        "question_id": "26", 
+        "company_id": "tech_solutions_ltd",
+        "answer": "We have basic security policies covering acceptable use, password requirements, and data handling, but they're stored in different Word documents and not easily accessible to all staff. Some policies haven't been updated in 2+ years. We've mentioned them in team meetings but don't have a formal policy acknowledgment process. Staff awareness of current policies is inconsistent.",
+        "answered_by": "Linda Chen - HR Manager",
+        "answered_at": "2024-01-15T14:00:00Z",
+        "status": "requires_clarification",
+        "confidence_level": "low",
+        "evidence_files": [
+            {
+                "filename": "security_policies_draft.zip",
+                "file_type": "zip",
+                "description": "Collection of various security policy documents - some outdated",
+                "file_path": "uploads/security_policies_draft.zip", 
+                "uploaded_at": "2024-01-15T14:01:00Z"
+            }
+        ],
+        "evidence_description": "Various policy documents provided but acknowledge they need updating and better distribution",
+        "compliance_notes": "Security policies exist but are fragmented, outdated, and not effectively communicated to staff",
+        "extracted_keywords": ["policies", "acceptable", "use", "password", "data", "handling", "outdated"],
+        "risk_level": "high",
+        "reviewer_notes": "Policies need to be consolidated, updated, and implemented with formal staff acknowledgment process"
+    },
+    {
+        "_id": "ans_010",
+        "question_id": "34",
+        "company_id": "tech_solutions_ltd",
+        "answer": "Some staff attended a cybersecurity webinar in 2023, and we had an informal 30-minute security briefing during our quarterly company meeting. However, we don't have comprehensive cybersecurity training for all employees and no formal records or certificates. Most of our security awareness comes from occasional email reminders about phishing. We recognize this is insufficient.",
+        "answered_by": "Linda Chen - HR Manager",
+        "answered_at": "2024-01-15T14:30:00Z",
+        "status": "requires_clarification",
+        "confidence_level": "low",
+        "evidence_files": [
+            {
+                "filename": "webinar_attendance_2023.pdf",
+                "file_type": "pdf",
+                "description": "Certificate from cybersecurity webinar attended by 3 staff members",
+                "file_path": "uploads/webinar_attendance_2023.pdf",
+                "uploaded_at": "2024-01-15T14:31:00Z"
+            }
+        ],
+        "evidence_description": "Limited evidence of cybersecurity training - only webinar certificate for few staff members",
+        "compliance_notes": "Insufficient cybersecurity training coverage - does not meet comprehensive training requirements",
+        "extracted_keywords": ["training", "webinar", "2023", "informal", "phishing", "insufficient"],
+        "risk_level": "high",
+        "reviewer_notes": "Formal cybersecurity awareness training program needed for all employees with proper documentation and regular refresh cycles"
+    },
+    {
+        "_id": "ans_011",
+        "question_id": "38",
+        "company_id": "tech_solutions_ltd",
+        "answer": "We maintain a basic list of user accounts in Excel, but it's not comprehensive and gets updated irregularly. It includes Active Directory accounts but doesn't track cloud service accounts (AWS, GitHub, etc.) or service accounts properly. Some former employees' accounts may still be active as we don't have a formal offboarding checklist.",
+        "answered_by": "John Smith - IT Manager",
+        "answered_at": "2024-01-15T15:00:00Z",
+        "status": "requires_clarification",
+        "confidence_level": "low",
+        "evidence_files": [
+            {
+                "filename": "user_accounts_list_basic.xlsx",
+                "file_type": "xlsx", 
+                "description": "Basic user account list - incomplete and may be outdated",
+                "file_path": "uploads/user_accounts_list_basic.xlsx",
+                "uploaded_at": "2024-01-15T15:01:00Z"
+            }
+        ],
+        "evidence_description": "Basic account list provided but acknowledges significant gaps and maintenance issues",
+        "compliance_notes": "Account management practices are inadequate - missing comprehensive tracking and proper offboarding",
+        "extracted_keywords": ["accounts", "Excel", "irregular", "Active Directory", "cloud", "offboarding"],
+        "risk_level": "high",
+        "reviewer_notes": "Comprehensive account inventory and formal offboarding procedures urgently needed. Review and disable inactive accounts."
+    },
+    {
+        "_id": "ans_012",
+        "question_id": "44",
+        "company_id": "tech_solutions_ltd",
+        "answer": "We have MFA enabled for our Microsoft 365 accounts and AWS console access. However, MFA is not enforced for local workstation logins, our project management tools, or some development systems. We use Microsoft Authenticator app for most MFA implementations.",
+        "answered_by": "John Smith - IT Manager", 
+        "answered_at": "2024-01-15T15:30:00Z",
+        "status": "submitted",
+        "confidence_level": "medium",
+        "evidence_files": [
+            {
+                "filename": "mfa_config_m365.png",
+                "file_type": "png",
+                "description": "Screenshot showing MFA configuration in Microsoft 365 admin center",
+                "file_path": "uploads/mfa_config_m365.png",
+                "uploaded_at": "2024-01-15T15:31:00Z"
+            }
+        ],
+        "evidence_description": "MFA configuration screenshots for cloud services provided",
+        "compliance_notes": "Partial MFA implementation - good coverage for cloud services but gaps in local systems",
+        "extracted_keywords": ["MFA", "Microsoft", "365", "AWS", "Authenticator", "workstation"],
+        "risk_level": "medium",
+        "reviewer_notes": "Consider extending MFA to additional systems, particularly administrative access to critical systems"
+    }
+] 

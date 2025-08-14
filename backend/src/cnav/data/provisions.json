@@ -1,0 +1,50 @@
+[
+    {
+        "_id": "A.8.4(a)",
+        "section": "A",
+        "subsection": "8",
+        "clause": "4",
+        "subclause": "a",
+        "provision": "The organisation shall identify business-critical systems and those containing essential business information and perform backup."
+    },
+    {
+        "_id": "A.8.4(b)",
+        "section": "A",
+        "subsection": "8",
+        "clause": "4",
+        "subclause": "b",
+        "provision": "The backups shall be performed on a regular basis, with the backup frequency aligned to the business requirements and how many days' worth of data the organisation can afford to lose."
+    },
+    {
+        "_id": "A.8.4(h)",
+        "section": "A",
+        "subsection": "8",
+        "clause": "4",
+        "subclause": "h",
+        "provision": "Backups shall be stored separately from the operating environment."
+    },
+    {
+        "_id": "A.8.4(e)",
+        "section": "A",
+        "subsection": "8",
+        "clause": "4",
+        "subclause": "e",
+        "provision": "Subject to scope of certification, the organisation shall understand the role and responsibility between itself and the cloud service provider in terms of data backup and data backup shall be carried out by the organisation."
+    },
+    {
+        "_id": "A.8.4(g)",
+        "section": "A",
+        "subsection": "8",
+        "clause": "4",
+        "subclause": "g",
+        "provision": "All backups shall be protected from unauthorised access and be restricted to authorised personnel only."
+    },
+    {
+        "_id": "A.8.4(j)",
+        "section": "A",
+        "subsection": "8",
+        "clause": "4",
+        "subclause": "j",
+        "provision": "Longer term backups such as monthly backups shall be stored offline in an external secure storage location."
+    }
+]

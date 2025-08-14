@@ -1,0 +1,35 @@
+[
+    {
+        "_id": "1",
+        "question": "Any backup for critical services and data? If yes, are backups of critical data being performed regularly and stored securely?",
+        "source": 1
+    },
+    {
+        "_id": "2",
+        "question": "Is there a backup policy? If yes, please describe, and provide documentation if available. What are the systems to back up, frequency, storage and recovery testing etc?",
+        "source": 1
+    },
+    {
+        "_id": "3",
+        "question": "Is there a backup plan if computer systems are down/affected? If there is, please submit the document if available and describe.",
+        "source": 1
+    },
+    {
+        "_id": "4",
+        "question": "Is the backup data encrypted?",
+        "source": 1
+    },
+    {
+        "_id": "5",
+        "question": "Do you have any existing backup logs/proof of backups? If yes, please provide.",
+        "source": 1
+    },
+    {
+        "_id": "6",
+        "question": "Who are your primary customers? Is it B2B or B2C? What are the services provided?",
+        "audience": [
+            "owner"
+        ],
+        "source": 1
+    }
+]

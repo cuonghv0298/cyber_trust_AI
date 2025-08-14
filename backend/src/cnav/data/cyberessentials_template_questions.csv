@@ -1,0 +1,61 @@
+Item,Questions,Cyberessentials Requirement,Group Tag,Comments
+1,Who are your primary customers? Is it B2B or B2C? What are the services provided?, ,CONTEXT,
+2,"Is there any internal or external training for cyber that you and your staff attended before? If yes, is there any record ie in the form of email or invoices to prove? What is the triggering point for the training? Also, Are the topics covering Phishing, Password etc? Share the topics or training guides.",A.1.4(a),TRAINING,
+3,How do you test that the trainee walks away with the required knowledge? Please describe and provide documentation for the methodology if available,A.1.4(a),TRAINING,
+4,Any existing Cyber hygiene practices and guidelines developed for employees to adopt in their daily operations? What are they? Please describe or provide the relevant documentation,A.1.4(b),TRAINING,
+5,"Any disciplinary actions for employees when they fail to comply to data security policy? If yes, what? Please describe and provide documentation if available",A.1.4(b),POLICY,
+6,"Any security policies created for organization?  If yes, what are they? Are they accessible and being told to staff?",A.1.4(b),POLICY,
+7,"What is Operating System used for end user and server application currently? (E.g. End-User OS: Windows 11, Windows 10, Windows XP etc, Server Application: Windows Server 2022, Windows Server 2025 etc)",A.2.4(a),HW/SW INV,
+8,"Are there any procedures in place for checking whether operating systems used (end user and server application) are approaching end of service/at end of service? If yes, what are they? Is there anybody in charge of this? Please describe and provide documentation if available. ","A.2.4(g,h)",HW/SW INV,
+9,"Fill in the template hardware asset inventory list attached.
+Any pre-existing hardware asset inventory list? If yes, are there procedures in place to ensure that it is updated? Who is managing it if any? Please describe the procedures and provide relevant documentation for them if available.",A.2.4(a),HW/SW INV,'Hardware Inventory List (Base)'!A1
+10,"Fill in the template software asset inventory list attached.
+Any pre-existing software asset inventory list? If yes, are there procedures in place to ensure that it is updated? Who is managing it if any? Please describe the procedures and provide relevant documentation for them if available.",A.2.4(a),HW/SW INV,'Software Inventory List (Base)'!A1
+11,Are there any machines running somewhere in your organisation that you might not be aware of? Who should be the one who gives the information?,A.2.4(a),HW/SW INV,
+12,"What is the current procedure to dispose physical assets such as laptops, hard disks, USB? Please describe/provide the process map",A.2.4(l),DISPOSAL,
+13,Is there a change request procedure in place? Who is approving it and who manages it? Please describe/provide the process map if documented,A.2.4(i),CHANGE,
+14,"Any other regulations than PDPA in your industry that your company has to comply? If yes, please list them.", ,CONTEXT,
+15,Do you know what data has to be protected?,A.3.4(a),DATA INV,
+16,Is the data stored encrypted? How are the keys managed and stored?,A.3.4(c),DATA INV,
+17,"Is there any data classification  (For example: Public, Confidential, Internal)? If yes, please describe.",A.3.4(a),DATA INV,
+18," Is there any data classification policy? If yes, please describe and provide documentation where available.",A.3.4(a),DATA INV,
+19,"Are there appropriate security measures and access control in place based on data classification level? If yes, please describe and provide documentation if available","A.3.4(c,d)",DATA INV,
+20,"Fill in the template data inventory list attached.
+Any pre-existing data inventory list? If yes, are there procedures in place to ensure that it is updated? Who is managing it if any? Please describe the procedures and provide relevant documentation for them if available.",A.3.4(a),DATA INV,'Data Inventory List (Base)'!A1
+21,"Where is data located? Is the data physically secured in the office, or in a cloud where you need certain privileges to gain access to them?",A.3.4(c),DATA INV,Linked questions
+22,"Does the company maintain a local server (in physical office) or is it on cloud? If yes, are the staff allowed to access these resources from external (i.e home)? If so, is there VPN (virtual private network) to access company data when using personal device or other wireless access points?",A.4.4(k),NETWORK,
+23,"If the data is stored physically in the office, does the place have cctvs, security guards? If there are cctvs, are there logs for them? Are the logs being backed up?  Who has access to these data?",A.5.4(i),PHYS-ENV,
+24,Are there any security controls (i.e End-point security)  installed in machines? What are they?,A.4.4(a-d),MALWARE,
+25,What are the company's critical functions? Please describe and provide documentation where available,A.3.4(a),DATA INV,
+26,"Any backup for critical services and data? If yes, are backups of critical data being performed regularly and stored securely?'","A.8.4(a,b,g,h)",BACKUP,
+27,"Is there a backup policy? If yes, please describe, and provide documentation if available. What are the systems to back up, frequency, storage and recovery testing etc?","A.8.4(b,g,h,j)",BACKUP,
+28,"Is there a backup plan if computer systems are down/affected? If there is, please submit the document if available and describe.",A.8.4(a),BACKUP,
+29,Is the backup data encrypted?,A.8.4(g),BACKUP,
+30,"Please provide a network diagram that is being maintained if available. Otherwise, describe how all of the network systems are connected, as well as how many are there.",A.6.4(a),NETWORK,
+31,Is there a physical office for the staff to work in?,A.5.4(i),PHYS-ENV,"Linked questions (Without physical office, no need for firewall, physical access controls etc)"
+32,What are the current physical control measures in place? i.e card access door lock to authenticate and authorise entry,A.5.4(i),PHYS-ENV,
+33,What physical access controls are there for visitors/employees visiting the office? E.g. Visitors can only access the visitation area etc,A.5.4(i),PHYS-ENV,
+34,"Does flooding or any natural occurences affect the operations of organisation? If so, what is the disaster recovery plan when there is a fire/flood that destroy customers details in the system?",A.9.4(a),IR/BCP,
+35,"Any firewall in place to protect external intruder from accessing organisation resources? If yes, are there any firewall rules to filter malicious traffic? If not, any network devices with ACL features? ",A.4.4(f),FIREWALL,
+36,Are the organisation's wireless networks visible from outside the office? Is the SSID hidden?,A.6.4(e),WIFI,
+37,Any secondary DNS server available?, ,NETWORK,
+38,"Any 3rd party vendors you working with? If yes, who are they? Is there an inventory of outsourced service providers in place? If yes, please provide documentation",A.5.4(g),VENDOR,
+39,"Any data processing agreements with your service provider in place? If yes, either describe or provide the agreement documentation",A.5.4(g),VENDOR,
+40,"Any regular security assessments conducted to evaluate 3rd party vendors security controls, ensuring that they align with company security policies and outsourcing requirements? If yes, what are they? Please describe.",A.5.4(g),VENDOR,
+41,"Is there a non-disclosure agreement form for third parties or external vendors who are working 
+with sensitive information to sign? If yes, please provide a template form.",A.5.4(h),VENDOR,
+42,Do you have either in house or external contract with service providers to take care of cybersecurity incidents such as ransomware attacks? Please provide either the contract or describe.,A.9.4(a),IR/BCP,
+43,"Is there a list of login accounts to workstations and servers of every employee in place? If yes, Please provide the list.
+","A.5.4(a,b)",ACCT MGMT,'Login Account List (Base)'!A1
+44,"Is there a process with the necessary approvals to grant and revoke access? If yes, please provide a description.",A.5.4(c),ACCT MGMT,
+45,what is the currrent process for reporting any stolen/loss corporate device? Please describe the process/provide the process maps if there is any documentation,A.5.4(e),ACCT MGMT,
+46,Is there MFA implemented? I.e. two-factor authentication (2FA),A.5.4(o),ACCT MGMT,
+47,"Any controls in place i.e  EDR on endpoints to monitor account access to detect and identify any abnormalities such as multiple  failed logins within a short period of time, as well as logins during odd timings? If yes, please describe.",A.5.4(m),ACCT MGMT,
+48,"Is there a process in place whereby employees report any suspicious email or attachment to the IT team and/or senior management immediately? If yes, please describe it, providing documentation if available",A.4.4(l),TRAINING,
+49,"Any anti-malware solutions in place? If yes, what are they? Please describe",A.4.4(a-d),MALWARE,
+50,"Is there website whitelisting implemented, where employees can only visit the whitelisted sites? ",A.4.4(j),MALWARE,
+51,"Does the organisation maintain a list of personal devices used to access organisation's networks? If yes, where is it, and is there somebody in charge of it? What kind of security controls are in place to prevent these personal devices from losing the data?",A.5.4(g); A.6.4(e),BYOD, (Can provide template form)
+52,"Is there a incident response plan (IRP) in place for cybersecurity and data breach incident? If yes, please provide it.","A.9.4(a,b)",IR/BCP,
+53,Is there a crisis management and/or business continuity plan in place for cyber? Please describe and provide documentation if available,"A.9.4(a,b)",IR/BCP,
+54,What is the frequency of patching for vulnerabilites in software and OS? Is there a different patching frequency for different severity of the vulnerabilities? Please describe.,A.7.4(a),PATCH/VULN,
+55,"Any vulerability scans conducted? If yes,share the frequency and remediations. Who is managing it? What are the guidelines for actions against high, medium and low findings?",A.7.4(a),PATCH/VULN,

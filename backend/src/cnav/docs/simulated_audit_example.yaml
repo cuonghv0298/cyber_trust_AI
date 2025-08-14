@@ -1,0 +1,16 @@
+evaluation_summary:
+  total_shall_provisions: 78
+  fully_covered: 77
+  failed: 1
+  status: FAIL
+
+failing_provision:
+  id: "A.6.a"
+  category: "Secure Configuration"
+  requirement: "Security configurations shall be enforced..."
+  auditor_comment: "Default admin credentials still active on firewall; not remediated."
+  required_evidence: "Screenshot or config file showing changed credentials and CIS benchmark compliance."
+
+recommendation:
+  - "Remediate firewall configuration"
+  - "Resubmit updated self-assessment and re-audit this provision"

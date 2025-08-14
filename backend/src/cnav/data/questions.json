@@ -1,0 +1,1029 @@
+[
+    {
+        "_id": "1",
+        "question": "Any backup for critical services and data? If yes, are backups of critical data being performed regularly and stored securely?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "2",
+        "question": "Is there a backup policy? If yes, please describe, and provide documentation if available. What are the systems to back up, frequency, storage and recovery testing etc?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "3",
+        "question": "Is there a backup plan if computer systems are down/affected? If there is, please submit the document if available and describe.",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "4",
+        "question": "Is the backup data encrypted?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "5",
+        "question": "Do you have any existing backup logs/proof of backups? If yes, please provide.",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "6",
+        "question": "Who are your primary customers? Is it B2B or B2C? What are the services provided?",
+        "audience": [
+            "owner"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "7",
+        "question": "Who are your primary customers? Is it B2B or B2C? What are the services provided?",
+        "audience": [
+            "owner"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "8",
+        "question": "What is Operating System used for end user and application currently?",
+        "audience": [
+            "owner",
+            "purchaser",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "9",
+        "question": "Do you know whether the OS used is already end of support?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "10",
+        "question": "Anyone looking at whether the used OS not more supported by vendor eg Microsoft?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "11",
+        "question": "Any asset inventory list? Both hardware and software. Who is managing it?",
+        "audience": [
+            "owner",
+            "purchaser",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "12",
+        "question": "Are there any machines running somewhere that you might not be aware? Who should be the one who gives the information?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "13",
+        "question": "Are there any security controls (i.e EDR)  installed in machines? ",
+        "audience": [
+            "owner",
+            "purchaser",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "14",
+        "question": "Any VA scans conducted? Can share the frequency and remediations. Who is managing it?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "15",
+        "question": "Is there a business continuity plan in place?",
+        "audience": [
+            "owner"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "16",
+        "question": "What are the company's critical functions?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "17",
+        "question": "Any backup for (critical) services and data?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "18",
+        "question": "are backups of critical data being performed regularly and stored securely?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "19",
+        "question": "What is the backup plan if computer systems are down/affected? ",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "20",
+        "question": "What manage your computer network? Any network diagram being maintained?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "21",
+        "question": "Any firewall in place? Any firewall rules to filter malicious traffic? IP blocklisting to identify \nand block IPs that show malicious activity",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "22",
+        "question": "Any secondary DNS server available?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "23",
+        "question": "Any other regulations than PDPA in your industry that your company has to comply?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "24",
+        "question": "Do you know what data has to be protected?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "25",
+        "question": "where are the data stored? Are these data encrypted? How are the keys managed and stored?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "26",
+        "question": "Any security policies created for organization? Staff accessible and being told?",
+        "audience": [
+            "owner",
+            "it",
+            "hr",
+            "employees"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "27",
+        "question": "Any classification for sensitivity (Public, Confidential, Internal)",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "28",
+        "question": "Are there appropriate security measures and access control in place based on the data classification level?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "29",
+        "question": "Location of data and retention period?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "30",
+        "question": "Any 3rd party vendors you working with? Is there an inventory of outsourced service providers in place?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "31",
+        "question": "Any data processing agreements in place? ",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "32",
+        "question": "Any regular security assessments  conducted to evaluate 3rd party vendors security controls, ensuring that they align with company security policies and outsourcing requirements?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "33",
+        "question": "Is there a non-disclosure agreement form for third parties or external vendors who are working \nwith sensitive information to sign? ",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "34",
+        "question": "Is there any internal or external training you and your staff attended before? Any record ie in the form email or\n invoices to prove?",
+        "audience": [
+            "owner",
+            "it",
+            "hr",
+            "employees"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "35",
+        "question": "Are the topics covering Phishing, Password etc? Share the topics or training guides.",
+        "audience": [
+            "owner",
+            "it",
+            "hr",
+            "employees"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "36",
+        "question": "How do you test that the trainee walks away with the required knowledge? Is there a quiz conducted?",
+        "audience": [
+            "owner",
+            "it",
+            "hr",
+            "employees"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "37",
+        "question": "Any existing Cyber hygiene practices and guidelines developed for employees to adopt in their daily operations?",
+        "audience": [
+            "owner",
+            "it",
+            "hr",
+            "employees"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "38",
+        "question": " is there a list of login accounts to workstations and servers of every employee in place?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "39",
+        "question": "Is there a process with the necessary approvals to grant and revoke access?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "40",
+        "question": "what is the currrent process for reporting any stolen/loss corporate device?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "41",
+        "question": "What are the current physical control? i.e card access door lock to authenticate and authorise entry",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "42",
+        "question": "Is there a permanent office?",
+        "audience": [
+            "owner"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "43",
+        "question": "Is there an access control policy in place?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "44",
+        "question": "Are there MFA implemented? two-factor authentication (2FA)",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "45",
+        "question": "Any controls in place i.e firewalls, EDR on endpoints to monitor account access to detect and identify any abnormalities such as multiple  failed logins within a short period of time, as well as logins during odd timings.",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "46",
+        "question": "Is there a process in place whereby employees report any suspicious email or attachment to the IT team and/or senior management immediately?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "47",
+        "question": "Any anti-malware solutions in place?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "48",
+        "question": "Are there website whitelisting implemented, where employees can only visit the whitelisted sites?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "49",
+        "question": "Does the company maintain a local server (in physical office) or is it on cloud? Are the staff allowed to access these resources from external (i.e home)",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "50",
+        "question": "If so, is there VPN (virtual private network) to access company data when using personal device or other wireless access points",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "51",
+        "question": "Are the organisation's wireless networks visible from outside the office? Is the SSID hidden?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "52",
+        "question": "Does the organisation maintain a list of personal devices used to access organisation's networks? ",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "53",
+        "question": "Any disciplinary actions for employees when fail to comply to data security policy?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "54",
+        "question": "Is there a incident response plan (IRP) in place for cybersecurity and data breach incident?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "55",
+        "question": "Is there a backup policy? What are the systems to back up, frequency, storage and recovery testing etc?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "56",
+        "question": "Is there a change request? Who is approving it and who manages it?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "57",
+        "question": "Are the backup data encrypted?",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "58",
+        "question": "If the data is stored physically in the office, does the place have cctvs, security guards? Who has access to these data?",
+        "audience": [
+            "owner"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "59",
+        "question": "Are there physical controls such as security guards, cctvs, vistors sign in, employee access cards in the office building?",
+        "audience": [
+            "owner",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "60",
+        "question": "what is the current procedure to dispose physical assets such as laptops, hard disks, USB?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "61",
+        "question": "Are there any procedure in plan for media destruction in USB?",
+        "audience": [
+            "owner",
+            "it",
+            "hr"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "62",
+        "question": "What is the frequency of patching for vulnerabilites in software and OS? ",
+        "audience": [
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "63",
+        "question": "Does flood or any natural occurences affect the operations of organisation? If so, what is the disaster recovery plan when\nthere is a fire/flood that destroy customers details in the system?",
+        "audience": [
+            "owner",
+            "it"
+        ],
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "64",
+        "question": "Could you describe your current network setup?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "65",
+        "question": "Are there any constraints, such as budget or existing hardware limitations?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "66",
+        "question": "What physical access do visitors and employees have to the office?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "67",
+        "question": "Which key personnel do you currently have who would be involved in the incident response plan?",
+        "audience": null,
+        "cyberessentials_requirement": null,
+        "group_tag": null
+    },
+    {
+        "_id": "68",
+        "question": "Who are your primary customers? Is it B2B or B2C? What are the services provided?",
+        "audience": null,
+        "cyberessentials_requirement": " ",
+        "group_tag": "CONTEXT"
+    },
+    {
+        "_id": "69",
+        "question": "Is there any internal or external training for cyber that you and your staff attended before? If yes, is there any record ie in the form of email or invoices to prove? What is the triggering point for the training? Also, Are the topics covering Phishing, Password etc? Share the topics or training guides.",
+        "audience": null,
+        "cyberessentials_requirement": "A.1.4(a)",
+        "group_tag": "TRAINING"
+    },
+    {
+        "_id": "70",
+        "question": "How do you test that the trainee walks away with the required knowledge? Please describe and provide documentation for the methodology if available",
+        "audience": null,
+        "cyberessentials_requirement": "A.1.4(a)",
+        "group_tag": "TRAINING"
+    },
+    {
+        "_id": "71",
+        "question": "Any existing Cyber hygiene practices and guidelines developed for employees to adopt in their daily operations? What are they? Please describe or provide the relevant documentation",
+        "audience": null,
+        "cyberessentials_requirement": "A.1.4(b)",
+        "group_tag": "TRAINING"
+    },
+    {
+        "_id": "72",
+        "question": "Any disciplinary actions for employees when they fail to comply to data security policy? If yes, what? Please describe and provide documentation if available",
+        "audience": null,
+        "cyberessentials_requirement": "A.1.4(b)",
+        "group_tag": "POLICY"
+    },
+    {
+        "_id": "73",
+        "question": "Any security policies created for organization?  If yes, what are they? Are they accessible and being told to staff?",
+        "audience": null,
+        "cyberessentials_requirement": "A.1.4(b)",
+        "group_tag": "POLICY"
+    },
+    {
+        "_id": "74",
+        "question": "What is Operating System used for end user and server application currently? (E.g. End-User OS: Windows 11, Windows 10, Windows XP etc, Server Application: Windows Server 2022, Windows Server 2025 etc)",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(a)",
+        "group_tag": "HW/SW INV"
+    },
+    {
+        "_id": "75",
+        "question": "Are there any procedures in place for checking whether operating systems used (end user and server application) are approaching end of service/at end of service? If yes, what are they? Is there anybody in charge of this? Please describe and provide documentation if available. ",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(g,h)",
+        "group_tag": "HW/SW INV"
+    },
+    {
+        "_id": "76",
+        "question": "Fill in the template hardware asset inventory list attached.\nAny pre-existing hardware asset inventory list? If yes, are there procedures in place to ensure that it is updated? Who is managing it if any? Please describe the procedures and provide relevant documentation for them if available.",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(a)",
+        "group_tag": "HW/SW INV"
+    },
+    {
+        "_id": "77",
+        "question": "Fill in the template software asset inventory list attached.\nAny pre-existing software asset inventory list? If yes, are there procedures in place to ensure that it is updated? Who is managing it if any? Please describe the procedures and provide relevant documentation for them if available.",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(a)",
+        "group_tag": "HW/SW INV"
+    },
+    {
+        "_id": "78",
+        "question": "Are there any machines running somewhere in your organisation that you might not be aware of? Who should be the one who gives the information?",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(a)",
+        "group_tag": "HW/SW INV"
+    },
+    {
+        "_id": "79",
+        "question": "What is the current procedure to dispose physical assets such as laptops, hard disks, USB? Please describe/provide the process map",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(l)",
+        "group_tag": "DISPOSAL"
+    },
+    {
+        "_id": "80",
+        "question": "Is there a change request procedure in place? Who is approving it and who manages it? Please describe/provide the process map if documented",
+        "audience": null,
+        "cyberessentials_requirement": "A.2.4(i)",
+        "group_tag": "CHANGE"
+    },
+    {
+        "_id": "81",
+        "question": "Any other regulations than PDPA in your industry that your company has to comply? If yes, please list them.",
+        "audience": null,
+        "cyberessentials_requirement": " ",
+        "group_tag": "CONTEXT"
+    },
+    {
+        "_id": "82",
+        "question": "Do you know what data has to be protected?",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(a)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "83",
+        "question": "Is the data stored encrypted? How are the keys managed and stored?",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(c)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "84",
+        "question": "Is there any data classification  (For example: Public, Confidential, Internal)? If yes, please describe.",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(a)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "85",
+        "question": " Is there any data classification policy? If yes, please describe and provide documentation where available.",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(a)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "86",
+        "question": "Are there appropriate security measures and access control in place based on data classification level? If yes, please describe and provide documentation if available",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(c,d)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "87",
+        "question": "Fill in the template data inventory list attached.\nAny pre-existing data inventory list? If yes, are there procedures in place to ensure that it is updated? Who is managing it if any? Please describe the procedures and provide relevant documentation for them if available.",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(a)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "88",
+        "question": "Where is data located? Is the data physically secured in the office, or in a cloud where you need certain privileges to gain access to them?",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(c)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "89",
+        "question": "Does the company maintain a local server (in physical office) or is it on cloud? If yes, are the staff allowed to access these resources from external (i.e home)? If so, is there VPN (virtual private network) to access company data when using personal device or other wireless access points?",
+        "audience": null,
+        "cyberessentials_requirement": "A.4.4(k)",
+        "group_tag": "NETWORK"
+    },
+    {
+        "_id": "90",
+        "question": "If the data is stored physically in the office, does the place have cctvs, security guards? If there are cctvs, are there logs for them? Are the logs being backed up?  Who has access to these data?",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(i)",
+        "group_tag": "PHYS-ENV"
+    },
+    {
+        "_id": "91",
+        "question": "Are there any security controls (i.e End-point security)  installed in machines? What are they?",
+        "audience": null,
+        "cyberessentials_requirement": "A.4.4(a-d)",
+        "group_tag": "MALWARE"
+    },
+    {
+        "_id": "92",
+        "question": "What are the company's critical functions? Please describe and provide documentation where available",
+        "audience": null,
+        "cyberessentials_requirement": "A.3.4(a)",
+        "group_tag": "DATA INV"
+    },
+    {
+        "_id": "93",
+        "question": "Any backup for critical services and data? If yes, are backups of critical data being performed regularly and stored securely?'",
+        "audience": null,
+        "cyberessentials_requirement": "A.8.4(a,b,g,h)",
+        "group_tag": "BACKUP"
+    },
+    {
+        "_id": "94",
+        "question": "Is there a backup policy? If yes, please describe, and provide documentation if available. What are the systems to back up, frequency, storage and recovery testing etc?",
+        "audience": null,
+        "cyberessentials_requirement": "A.8.4(b,g,h,j)",
+        "group_tag": "BACKUP"
+    },
+    {
+        "_id": "95",
+        "question": "Is there a backup plan if computer systems are down/affected? If there is, please submit the document if available and describe.",
+        "audience": null,
+        "cyberessentials_requirement": "A.8.4(a)",
+        "group_tag": "BACKUP"
+    },
+    {
+        "_id": "96",
+        "question": "Is the backup data encrypted?",
+        "audience": null,
+        "cyberessentials_requirement": "A.8.4(g)",
+        "group_tag": "BACKUP"
+    },
+    {
+        "_id": "97",
+        "question": "Please provide a network diagram that is being maintained if available. Otherwise, describe how all of the network systems are connected, as well as how many are there.",
+        "audience": null,
+        "cyberessentials_requirement": "A.6.4(a)",
+        "group_tag": "NETWORK"
+    },
+    {
+        "_id": "98",
+        "question": "Is there a physical office for the staff to work in?",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(i)",
+        "group_tag": "PHYS-ENV"
+    },
+    {
+        "_id": "99",
+        "question": "What are the current physical control measures in place? i.e card access door lock to authenticate and authorise entry",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(i)",
+        "group_tag": "PHYS-ENV"
+    },
+    {
+        "_id": "100",
+        "question": "What physical access controls are there for visitors/employees visiting the office? E.g. Visitors can only access the visitation area etc",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(i)",
+        "group_tag": "PHYS-ENV"
+    },
+    {
+        "_id": "101",
+        "question": "Does flooding or any natural occurences affect the operations of organisation? If so, what is the disaster recovery plan when there is a fire/flood that destroy customers details in the system?",
+        "audience": null,
+        "cyberessentials_requirement": "A.9.4(a)",
+        "group_tag": "IR/BCP"
+    },
+    {
+        "_id": "102",
+        "question": "Any firewall in place to protect external intruder from accessing organisation resources? If yes, are there any firewall rules to filter malicious traffic? If not, any network devices with ACL features? ",
+        "audience": null,
+        "cyberessentials_requirement": "A.4.4(f)",
+        "group_tag": "FIREWALL"
+    },
+    {
+        "_id": "103",
+        "question": "Are the organisation's wireless networks visible from outside the office? Is the SSID hidden?",
+        "audience": null,
+        "cyberessentials_requirement": "A.6.4(e)",
+        "group_tag": "WIFI"
+    },
+    {
+        "_id": "104",
+        "question": "Any secondary DNS server available?",
+        "audience": null,
+        "cyberessentials_requirement": " ",
+        "group_tag": "NETWORK"
+    },
+    {
+        "_id": "105",
+        "question": "Any 3rd party vendors you working with? If yes, who are they? Is there an inventory of outsourced service providers in place? If yes, please provide documentation",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(g)",
+        "group_tag": "VENDOR"
+    },
+    {
+        "_id": "106",
+        "question": "Any data processing agreements with your service provider in place? If yes, either describe or provide the agreement documentation",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(g)",
+        "group_tag": "VENDOR"
+    },
+    {
+        "_id": "107",
+        "question": "Any regular security assessments conducted to evaluate 3rd party vendors security controls, ensuring that they align with company security policies and outsourcing requirements? If yes, what are they? Please describe.",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(g)",
+        "group_tag": "VENDOR"
+    },
+    {
+        "_id": "108",
+        "question": "Is there a non-disclosure agreement form for third parties or external vendors who are working \nwith sensitive information to sign? If yes, please provide a template form.",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(h)",
+        "group_tag": "VENDOR"
+    },
+    {
+        "_id": "109",
+        "question": "Do you have either in house or external contract with service providers to take care of cybersecurity incidents such as ransomware attacks? Please provide either the contract or describe.",
+        "audience": null,
+        "cyberessentials_requirement": "A.9.4(a)",
+        "group_tag": "IR/BCP"
+    },
+    {
+        "_id": "110",
+        "question": "Is there a list of login accounts to workstations and servers of every employee in place? If yes, Please provide the list.\n",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(a,b)",
+        "group_tag": "ACCT MGMT"
+    },
+    {
+        "_id": "111",
+        "question": "Is there a process with the necessary approvals to grant and revoke access? If yes, please provide a description.",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(c)",
+        "group_tag": "ACCT MGMT"
+    },
+    {
+        "_id": "112",
+        "question": "what is the currrent process for reporting any stolen/loss corporate device? Please describe the process/provide the process maps if there is any documentation",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(e)",
+        "group_tag": "ACCT MGMT"
+    },
+    {
+        "_id": "113",
+        "question": "Is there MFA implemented? I.e. two-factor authentication (2FA)",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(o)",
+        "group_tag": "ACCT MGMT"
+    },
+    {
+        "_id": "114",
+        "question": "Any controls in place i.e  EDR on endpoints to monitor account access to detect and identify any abnormalities such as multiple  failed logins within a short period of time, as well as logins during odd timings? If yes, please describe.",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(m)",
+        "group_tag": "ACCT MGMT"
+    },
+    {
+        "_id": "115",
+        "question": "Is there a process in place whereby employees report any suspicious email or attachment to the IT team and/or senior management immediately? If yes, please describe it, providing documentation if available",
+        "audience": null,
+        "cyberessentials_requirement": "A.4.4(l)",
+        "group_tag": "TRAINING"
+    },
+    {
+        "_id": "116",
+        "question": "Any anti-malware solutions in place? If yes, what are they? Please describe",
+        "audience": null,
+        "cyberessentials_requirement": "A.4.4(a-d)",
+        "group_tag": "MALWARE"
+    },
+    {
+        "_id": "117",
+        "question": "Is there website whitelisting implemented, where employees can only visit the whitelisted sites? ",
+        "audience": null,
+        "cyberessentials_requirement": "A.4.4(j)",
+        "group_tag": "MALWARE"
+    },
+    {
+        "_id": "118",
+        "question": "Does the organisation maintain a list of personal devices used to access organisation's networks? If yes, where is it, and is there somebody in charge of it? What kind of security controls are in place to prevent these personal devices from losing the data?",
+        "audience": null,
+        "cyberessentials_requirement": "A.5.4(g); A.6.4(e)",
+        "group_tag": "BYOD"
+    },
+    {
+        "_id": "119",
+        "question": "Is there a incident response plan (IRP) in place for cybersecurity and data breach incident? If yes, please provide it.",
+        "audience": null,
+        "cyberessentials_requirement": "A.9.4(a,b)",
+        "group_tag": "IR/BCP"
+    },
+    {
+        "_id": "120",
+        "question": "Is there a crisis management and/or business continuity plan in place for cyber? Please describe and provide documentation if available",
+        "audience": null,
+        "cyberessentials_requirement": "A.9.4(a,b)",
+        "group_tag": "IR/BCP"
+    },
+    {
+        "_id": "121",
+        "question": "What is the frequency of patching for vulnerabilites in software and OS? Is there a different patching frequency for different severity of the vulnerabilities? Please describe.",
+        "audience": null,
+        "cyberessentials_requirement": "A.7.4(a)",
+        "group_tag": "PATCH/VULN"
+    },
+    {
+        "_id": "122",
+        "question": "Any vulerability scans conducted? If yes,share the frequency and remediations. Who is managing it? What are the guidelines for actions against high, medium and low findings?",
+        "audience": null,
+        "cyberessentials_requirement": "A.7.4(a)",
+        "group_tag": "PATCH/VULN"
+    }
+]

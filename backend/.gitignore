@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+evaluation_results/
+output/
+
+# Database
+*.db
+*.db-journal
+
+test_api_startup.py
+test_db_migration.py
+
+# cnav.db

@@ -1,0 +1,27 @@
+scope_statement:
+  organization_name: "Acme Technologies Ltd."
+  certification_scope_description: >
+    Provision of cloud-based HR software services at the Hanoi development center.
+  business_units_in_scope:
+    - Engineering Department
+    - Security Operations Center
+  physical_locations:
+    - Hanoi HQ Office, 5th Floor
+    - AWS Singapore region (for cloud workloads)
+  in_scope_devices:
+    - Developer laptops
+    - VPN gateways
+    - Production servers
+  in_scope_software:
+    - GitLab CI/CD
+    - AWS EC2 + S3
+    - Okta Identity Platform
+  network_boundary_description: >
+    Encompasses the VPN-connected developer subnet and VPC-hosted infrastructure
+  cloud_services_included: true
+  BYOD_policy_included: false
+  system_diagram_attachment: "system_diagram.png"
+  inventory_files:
+    hardware: "hardware_inventory.xlsx"
+    software: "software_inventory.xlsx"
+  data_classification_file: "data_inventory.csv"

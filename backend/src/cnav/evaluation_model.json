@@ -1,0 +1,33 @@
+{
+    "organization": {
+      "name": "string",
+      "scope_statement": "string",
+      "locations": ["string"],
+      "systems_in_scope": ["string"]
+    },
+    "assessment": [
+      {
+        "category_id": "A.1",
+        "category_name": "Assets: People",
+        "provisions": [
+          {
+            "provision_id": "A.1.a",
+            "requirement": "The organization shall conduct cybersecurity awareness training.",
+            "requirement_type": "shall",
+            "self_assessed_compliance": true,
+            "evidence": [
+              {
+                "type": "file",
+                "description": "Employee training log",
+                "path": "uploads/training_log.pdf"
+              }
+            ],
+            "auditor_verification": {
+              "compliant": true,
+              "comments": "Verified 100% completion for all staff."
+            }
+          }
+        ]
+      }
+    ]
+  }

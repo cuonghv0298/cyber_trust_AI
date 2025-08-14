@@ -1,0 +1,602 @@
+[
+  {
+    "clause_id": "A.1 Assets: People – Equip employees with know-how to be the first line of defence",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.1.4 (a)",
+        "provision_description": "The organisation shall put in place cybersecurity awareness training for all employees to ensure that employees are aware of the security practices and behaviour expected of them. Organisations may meet this requirement in different ways, e.g., provide self-learning materials for employees or engaging external training providers.",
+        "suggested_artefacts": "Documented information on cybersecurity awareness training for employees.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.1.4 (b)",
+        "provision_description": "Cyber hygiene practices and guidelines shall be developed for employees to adopt in their daily operations.",
+        "suggested_artefacts": "Documented information on cyber hygiene practices and guidelines for employees to adopt in their day-to-day operations.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.1.4 (c)",
+        "provision_description": "The cyber hygiene practices and guidelines should include topics to mitigate cybersecurity incidents arising from the human factor as follows:\n\n–\tProtect yourself from phishing;\n–\tSet strong passphrase and protect them;\n–\tProtect your corporate and/or personal devices (used for work);\n–\tReport cybersecurity incidents;\n–\tHandle and disclose business-critical data carefully; and\n–\tWork onsite and remotely in a secure manner.",
+        "suggested_artefacts": "Documented information on content of cybersecurity awareness training.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.1.4 (d)",
+        "provision_description": "Where feasible, the training content should be differentiated based on the role of the employees:\n\n–\tSenior management or business leaders – e.g., developing a cybersecurity culture/mindset in the organisation or establishing a cybersecurity strategy or workplan.\n–\tEmployees – e.g., using strong passphrases and protecting the corporate and/or personal devices used for work.",
+        "suggested_artefacts": "Documented information on differentiation of content of cybersecurity awareness training.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.1.4 (e)",
+        "provision_description": "As good practice, such cybersecurity awareness initiatives should be conducted at least annually to refresh employees’ awareness.",
+        "suggested_artefacts": "Documented information on frequency of cybersecurity awareness training.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.2 Assets: Hardware and software – Know what hardware and software the organisation has and protect them",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.2.4 (a)",
+        "provision_description": "An up-to-date asset inventory of all the hardware and software assets shall be maintained in the organisation. Organisations may meet this requirement in different ways, e.g., use of spreadsheet or IT asset management software to maintain the IT asset inventory.",
+        "suggested_artefacts": "Asset inventory of hardware and software assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (b)",
+        "provision_description": "Hardware assets within the scope of certification may include servers, network devices, laptops and computers. If the scope of the certification includes hardware assets such as mobile devices and/or IoT devices:\n\nMobile devices\n–\tOrganisations should include company-issued mobile devices as part of its asset inventory, e.g., mobile phone and tablet.\n\nIoT devices\n–\tOrganisations should include IoT devices used within the organisation as part of its asset inventory, e.g., Closed Circuit Television (CCTV), smart printer, smart television.",
+        "suggested_artefacts": "Asset inventory of hardware and software assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (c)",
+        "provision_description": "The inventory list should contain details of the hardware assets where available as follows:\n\n–\tHardware name/model;\n–\tAsset tag /serial number;\n–\tAsset type;\n–\tAsset location;\n–\tNetwork address;\n–\tAsset owner;\n–\tAsset classification;\n–\tDepartment;\n–\tApproval/authorised date; and\n–\tEnd of Support (EOS) date",
+        "suggested_artefacts": "Asset inventory of hardware and software assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (d)",
+        "provision_description": "Software assets within the scope of certification may include software applications used by the organisation. If the scope of certification includes a cloud environment:\n\nCloud\n–\tOrganisation shall include what is hosted on the cloud instances, e.g., software and Operating System (OS).",
+        "suggested_artefacts": "Asset inventory of hardware and software assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (e)",
+        "provision_description": "The inventory list should contain the details of the software assets where available, as follows:\n\n–\tSoftware name;\n–\tSoftware publisher;\n–\tSoftware version;\n–\tBusiness purpose;\n–\tAsset classification;\n–\tApproval/authorised date; and\n–\tEOS date.",
+        "suggested_artefacts": "Asset inventory of hardware and software assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (f)",
+        "provision_description": "As good practice, the hardware and software asset inventory list should be reviewed at least bi-annually (twice per year).",
+        "suggested_artefacts": "Asset inventory of hardware and software assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (g)",
+        "provision_description": "Hardware and software assets that are unauthorised or have reached their respective EOS shall be replaced.",
+        "suggested_artefacts": "Documented information of process and/or implementation of system to manage unauthorised and EOS assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (h)",
+        "provision_description": "In the event of any continued use of EOS assets, the organisation shall assess and understand the risk, obtain approval from senior management, and monitor it until the asset is replaced.",
+        "suggested_artefacts": "Documented information of process and/or implementation of system to manage unauthorised and EOS assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (i)",
+        "provision_description": "An authorisation process shall be developed to onboard new hardware and software into the organisation. Organisations may meet this requirement in different ways, e.g., email approval from senior management, ensuring that new hardware and software come from official or trusted sources, performing malware scans to verify that the asset is clean and maintaining asset whitelisting/blacklisting.",
+        "suggested_artefacts": "Documented information of process and/or implementation of system to manage assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (j)",
+        "provision_description": "The date of authorisation of software and hardware shall be keyed into the asset inventory list after obtaining the relevant dispensation, e.g., obtaining email approval or through the use of an approval form.",
+        "suggested_artefacts": "Documented information of process and/or implementation of system to manage assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (k)",
+        "provision_description": "Software and hardware without approval dates shall be removed.",
+        "suggested_artefacts": "Documented information of process and/or implementation of system to manage assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (l)",
+        "provision_description": "Before disposing of any hardware asset, the organisation shall ensure that all confidential information have been deleted, e.g., encrypting hard disk before reformatting and overwriting it.",
+        "suggested_artefacts": "Documented information on secure asset disposal.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.2.4 (m)",
+        "provision_description": "The organisation should carry out steps to ensure that the assets are disposed of securely and completely, e.g., destroy the hard disks physically or engage disk shredding services.",
+        "suggested_artefacts": "Documented information on secure asset disposal.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.3 Assets: Data – Know what data the organisation has, where they are, and secure the data",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.3.4 (a)",
+        "provision_description": "The organisation shall identify and maintain an inventory of business-critical data  in the organisation. Organisations may meet this requirement in different ways, e.g., using spreadsheet or asset inventory software. The inventory list shall contain details of the data as follows:\n\n–\tDescription;\n–\tData classification and/or sensitivity;\n–\tLocation; and\n–\tRetention period.",
+        "suggested_artefacts": "Asset inventory of business-critical data.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.3.4 (b)",
+        "provision_description": "Review of the inventory list should be carried out at least annually, or whenever there is any change to the data captured by the organisation.",
+        "suggested_artefacts": "Asset inventory of business-critical data.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.3.4 (c)",
+        "provision_description": "The organisation shall establish a process to protect its business-critical data, e.g., password protected documents, encryption of personal data (at rest) and/or emails.",
+        "suggested_artefacts": "Documented information of process to protect business-critical data.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.3.4 (d)",
+        "provision_description": "There shall also be measures in place to prevent the employees from leaking confidential and/or sensitive data outside of the organisation, e.g., disabling USB ports.",
+        "suggested_artefacts": "Documented information and/or implementation of data leakage and disposal process.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.3.4 (e)",
+        "provision_description": "Before disposing of any paper-based (hard copy) media, the organisation shall carry out steps to ensure that those containing confidential and/or sensitive data have been securely shredded.",
+        "suggested_artefacts": "Documented information and/or implementation of data leakage and disposal process.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.4 Secure/Protect: Virus and malware protection – Protect from malicious software like viruses and malware",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.4.4 (a)",
+        "provision_description": "Anti-malware solutions shall be used and installed in endpoints to detect attacks on the organisation’s environment. Examples of endpoints include laptop computers, desktop computers, servers and virtual environments.",
+        "suggested_artefacts": "Documented information outlining functionality and implementation of on anti-virus/anti-malware solution.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (b)",
+        "provision_description": "Virus and malware scans shall be carried out to detect possible cyberattacks. Where feasible, scans should always be automated and remain active to provide constant protection.",
+        "suggested_artefacts": "Documented information on configuration of anti-virus/anti-malware solution.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (c)",
+        "provision_description": "Organisations shall enable auto-updates or configure the anti-malware solution to update signature files or equivalent (e.g., non-signature based machine learning solutions) to detect new malware. Where possible, these updates should take place at least daily to stay protected from the latest malware.",
+        "suggested_artefacts": "Documented information on configuration of anti-virus/anti-malware solution.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (d)",
+        "provision_description": "Anti-malware solution shall be configured to automatically scan the files upon access. This includes files and attachments downloaded from the Internet through the web browser or email and external sources such as from portable USB drives.",
+        "suggested_artefacts": "Documented information on configuration of anti-virus/anti-malware solution.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (e)",
+        "provision_description": "If the scope of certification includes mobile devices, IoT devices, cloud environment or use of web browser/email:\n\nMobile devices\n–\tAnti-malware solution should be installed and running on mobile devices.\n\nIoT devices\n–\tAnti-malware solution should be integrated with the IoT devices, e.g., CCTV, smart television, smart printers, digital door lock.\n\nCloud\n–\tAnti-malware solution should be deployed on the cloud platform.\n\nWeb browser/email\n–\tOnly fully supported web browsers and email client software with security controls should be used.\n–\tAnti-phishing and spam filtering tools should be established for the web browser/email client software.\n–\tWeb browsers and/or email plug-ins/extensions/add-ons that are not necessary should be disabled and/or removed.\n–\tWeb filtering should be deployed to protect the business from malicious sites, where feasible.",
+        "suggested_artefacts": "Documented information outlining functionality and implementation of anti-virus/anti-malware solution.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (f)",
+        "provision_description": "Firewalls shall be deployed or switched on to protect the network, systems, and endpoints such as laptops, desktops, servers, and virtual environments. In an environment where there is an organisation’s network setup, a network perimeter firewall shall be configured to analyse and accept only authorised network traffic into the organisation’s network. Examples can include packet filter, Domain Name System (DNS) firewall and application-level gateway firewall with rules to restrict and filter network traffic. Depending on the organisation’s network setup, the firewall functionality may be integrated with other networking devices or be a standalone device.",
+        "suggested_artefacts": "Network and/or systems diagram.\n\nDocumented information on configuration of  firewall.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (g)",
+        "provision_description": "In an environment where there are endpoints connecting to the Internet and/or cloud-based applications, a software firewall (host-based firewall) should be configured and switched on for all the endpoints in the organisation where available, e.g., turning on the built-in software firewall feature included in most operating systems or anti-malware solutions.",
+        "suggested_artefacts": "Network and/or systems diagram.\n\nDocumented information on configuration of  firewall.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (h)",
+        "provision_description": "As good practice, firewall configurations and rules should ideally be reviewed and verified annually to protect the organisation’s Internet-facing assets where applicable.",
+        "suggested_artefacts": "Documented information on review of firewall rules and configuration.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (i)",
+        "provision_description": "If the scope of certification includes mobile and/or IoT devices:\n\nMobile devices\n–\tIt is recommended that firewalls should be installed and enabled on employees’ mobile devices.\n\nIoT devices\n–\tIt is recommended that firewalls should be configured and enabled on IoT devices where possible.",
+        "suggested_artefacts": "Documented information outlining functionality and implementation of firewall solution.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (j)",
+        "provision_description": "The organisation shall ensure that its employees install/access only authorised software/attachments within the organisation from official or trusted sources.",
+        "suggested_artefacts": "Documented information on installation and access to authorised software/attachments.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (k)",
+        "provision_description": "The organisation shall ensure that employees are aware of the use of trusted network connections for accessing the organisation’s data or business email, e.g., mobile hotspot, personal Wi-Fi, corporate Wi-Fi and Virtual Private Network (VPN).",
+        "suggested_artefacts": "Content of cybersecurity awareness training to employees.\n\nCybersecurity policies and practices for employees.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.4.4 (l)",
+        "provision_description": "The organisation shall ensure that its employees are aware of the need to report any suspicious email or attachment to the IT team and/or senior management immediately.",
+        "suggested_artefacts": "Content of cybersecurity awareness training to employees.\n\nCybersecurity policies and practices for employees.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.5 Secure/Protect: Access control – Control access to the organisation’s data and services",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.5.4 (a)",
+        "provision_description": "Account management shall be established to maintain and manage the inventory of accounts. The organisation may meet this in different ways, e.g., using of spreadsheets or exporting the list from software directory services.",
+        "suggested_artefacts": "Inventory of user accounts.\n\nList of employees in the organisation, period of employment, and their functional roles.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (b)",
+        "provision_description": "The account inventory list shall contain details for user, administrator, third-party, and service accounts not limited to the following:\n\n–\tName;\n–\tUsername;\n–\tDepartment;\n–\tRole/account type;\n–\tDate of access created; and\n–\tLast logon date.",
+        "suggested_artefacts": "Inventory of user accounts.\n\nList of employees in the organisation, period of employment, and their functional roles.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (c)",
+        "provision_description": "The organisation shall have a process with the necessary approvals to grant and revoke access. The organisation may implement this in different ways, e.g., email approval or access request form. This shall be implemented when there are personnel changes such as onboarding of new staff or change of role(s) for employees. The following fields shall be captured as follows:\n\n–\tName;\n–\tSystem to access;\n–\tDepartment;\n–\tRole/account type;\n–\tFrom date; and\n–\tTo date.",
+        "suggested_artefacts": "Documented information on process to request to grant and revoke access.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (d)",
+        "provision_description": "Access shall be managed to ensure employees can access only the information and systems required for their job role.",
+        "suggested_artefacts": "Inventory of user accounts.\n\nList of employees in the organisation, period of employment, and their functional roles.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (e)",
+        "provision_description": "Accounts with access rights that are no longer required or have exceeded the requested date shall have their access disabled or removed from the system. Shared, duplicate, obsolete and invalid accounts shall be removed.",
+        "suggested_artefacts": "Inventory of user accounts.\n\nList of employees in the organisation, period of employment, and their functional roles.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (f)",
+        "provision_description": "The administrator account shall only be accessed to perform administrator functions with approval from the senior management.",
+        "suggested_artefacts": "Documented information on process to request for administrative access to system.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (g)",
+        "provision_description": "Access shall be managed to ensure that third parties or contractors can access only the information and systems required for their job role. Such access shall be removed once they no longer require them.",
+        "suggested_artefacts": "Inventory of user accounts.\n\nList of third parties/contractors supporting the organisational, period of support, and their functional roles.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (h)",
+        "provision_description": "Third parties or contractors working with sensitive information in the organisation shall sign a non-disclosure agreement form. The form should include disciplinary action(s) for failure to abide by the agreement.",
+        "suggested_artefacts": "List of third parties/contractors supporting the organisational, period of support, and their functional roles.\n\nNon-disclosure agreement signed by third-parties and contractors.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (i)",
+        "provision_description": "Physical access control shall be enforced to allow only authorised employees/contractors to access the organisation’s IT assets and/or environment, e.g., use of cable lock to lock the workstations and card access door lock to authenticate and authorise entry.",
+        "suggested_artefacts": "Implementation of physical access control to organisation IT assets and/or environment.\n\nDocumented information on process to request to grant and revoke physical  access.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (j)",
+        "provision_description": "As good practice, account reviews should be carried out at least quarterly or whenever there are changes to the account list, e.g., during onboarding and offboarding processes or organisation restructuring.",
+        "suggested_artefacts": "Documented information on the process to conduct account review.\n\nE.g. practices to grant and revoke access during employee onboard and offboarding.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (k)",
+        "provision_description": "Dormant or inactive accounts which have been inactive for a prolonged period, e.g., sixty (60) days should be removed or disabled.",
+        "suggested_artefacts": "Inventory of user accounts.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (l)",
+        "provision_description": "The organisation shall change all default passwords and replace them with a strong passphrase, e.g., it should be at least twelve (12) characters long and include upper case, lower case, and/or special characters.",
+        "suggested_artefacts": "Documented information on password or passphrase policy.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (m)",
+        "provision_description": "User accounts shall be disabled and/or locked out after multiple failed login attempts, e.g., after ten (10) failed login attempts, ’throttling’ the rate of attempts .",
+        "suggested_artefacts": "Documented information on policy for user accounts.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (n)",
+        "provision_description": "The account password shall be changed in the event of any suspected compromise.",
+        "suggested_artefacts": "Documented information on password or passphrase policy.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (o)",
+        "provision_description": "Where feasible, two-factor authentication (2FA) should be used for administrative access to important systems, such as an Internet- facing system containing sensitive or business-critical data. Organisations may implement this in different ways, e.g., use of an authenticator application on the mobile or one-time password (OTP) token.",
+        "suggested_artefacts": "Documented information outlining functionality and implementation of two-factor authentication (2FA).",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.5.4 (p)",
+        "provision_description": "Where feasible, trusted software to manage passphrases should be used to aide employee passphrase management.",
+        "suggested_artefacts": "Documented information outlining functionality and implementation of passphrase management solution.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.6 Secure/Protect: Secure configuration – Use secure settings for the organisation’s hardware and software",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.6.4 (a)",
+        "provision_description": "Security configurations shall be enforced for the assets including desktop computers, servers and routers. Organisations may meet this requirement in different ways, e.g., adopting industry recommendations and standards such as Center for Internet Security (CIS) benchmarks on configuration guidelines across multiple vendor products, running baseline security analyser and/or using system configuration scripts.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.\n\nNetwork and/or systems diagram.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (b)",
+        "provision_description": "Weak or default configurations shall be avoided or updated before using them, e.g., changing default password and performing deep scanning with anti-malware solution instead of standard scan.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.\n\nNetwork and/or systems diagram.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (c)",
+        "provision_description": "Insecure configurations and weak protocols shall be replaced or upgraded to address the associated vulnerabilities, e.g., using Hypertext Transfer Protocol Secure (HTTPS) over normal Hypertext Transfer Protocol (HTTP) to encrypt data communication and upgrading Wired Equivalent Privacy (WEP) to Wi-Fi Protected Access 2/3 (WPA2/WPA3) to enhance the Wi-Fi security standards.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.\n\nNetwork and/or systems diagram.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (d)",
+        "provision_description": "Features, services, or applications that are not in used shall be disabled or removed, e.g., disabling file sharing services, software macros and File Transfer Protocol (FTP) ports.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.\n\nNetwork and/or systems diagram.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (e)",
+        "provision_description": "Automatic connection to open networks and auto-run feature of non-essential programs (other than backup or anti-malware solution, etc.) shall be disabled.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.\n\nNetwork and/or systems diagram.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (f)",
+        "provision_description": "Logging should also be enabled for software and hardware assets where feasible, e.g., system, events and security logs.",
+        "suggested_artefacts": "Documented information on logging of software and hardware assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (g)",
+        "provision_description": "As good practice, automatic lock/session log out should be enabled after fifteen (15) min of inactivity for the organisation’s assets. These include user sessions on the laptop computer, server, non-mobile device, database, and administrator portal.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.6.4 (h)",
+        "provision_description": "If the scope of certification includes mobile devices, IoT devices, and/or cloud environment:\n\nMobile devices – e.g., mobile phone, tablet\n–\tMobile devices should not be jail-broken or rooted.\n–\tMobile device passcodes should be enabled.\n–\tAutomatic mobile device locks should be activated after two (2) min of inactivity.\n–\tMobile applications should only be downloaded from official or trusted sources.\n\nIoT devices\n–\tNetwork hosting the IoT devices should be separated from the network containing the organisation’s assets and data.\n–\tSecurity features should be enabled on IoT devices, e.g., turning off device auto-discovery and Universal Plug and Play (UPnP).\n–\tIn selecting IoT devices, the organisation should use devices rated by the Cybersecurity Labelling Scheme (CLS) (where available).\n\nCloud\n–\tSecurity logging and monitoring should be turned on for cloud visibility, e.g., history of Application Programming Interface (API) calls, change tracking and compliance.",
+        "suggested_artefacts": "Documented information and/or implementation of configuration of assets.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.7 Update: Software updates – Update software on devices and systems",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.7.4 (a)",
+        "provision_description": "The organisation shall prioritise the implementation of critical or important updates for operating systems and applications (e.g., security patches) to be applied as soon as possible.",
+        "suggested_artefacts": "Documented information and/or implementation of software updates and patches.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.7.4 (b)",
+        "provision_description": "The organisation should carry out compatibility tests on updates for operating system and applications before installing them.",
+        "suggested_artefacts": "Documented information and/or implementation of compatibility tests on updates for operating system and applications.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.7.4 (c)",
+        "provision_description": "The organisation should consider enabling automatic updates for critical operating system and application patches where feasible so that they can receive the latest updates.",
+        "suggested_artefacts": "Documented information and/or implementation of software updates and patches.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.7.4 (d)",
+        "provision_description": "If the scope of certification includes mobile devices, IoT devices, and/or cloud environment:\n\nMobile devices – e.g., mobile phone, tablet\n–\tThe organisation should ensure that updates and patches for mobile devices are only downloaded from trusted sources (e.g., official app store from the manufacturer).\n\nIoT devices\n–\tThe organisation should remove or replace any IoT devices (e.g., CCTV, printers) that are not receiving any software patches or updates.\n\nCloud\n–\tThe organisation should refer to the cloud shared responsibility model with its Cloud Service Provider (CSP). This will allow organisations to be aware of when the organisation is responsible for software updates and security patches, and when the CSP is responsible.\n–\tThe organisation should have visibility on the software updates and security patches done by its CSPs.\n–\tThe organisation should also have security requirements regarding software updates defined for its CSPs.",
+        "suggested_artefacts": "Documented information on software updates and patches.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.8 Backup: Back up essential data – Back up the organisation’s essential data and store them offline",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.8.4 (a)",
+        "provision_description": "The organisation shall identify business-critical systems and those containing essential business information and perform backup. What needs to be backed up is guided by identifying what is needed for business recovery in the event of a cybersecurity incident. Examples of business-critical systems include stock-trading system, railway operating and control system. Examples of essential business information include financial data and business transactions.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (b)",
+        "provision_description": "The backups shall be performed on a regular basis, with the backup frequency aligned to the business requirements and how many days’ worth of data the organisation can afford to lose.",
+        "suggested_artefacts": "Documented information of systems backup.\nRecords of backups.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (c)",
+        "provision_description": "For non-business-critical systems or non-essential information, the backups should still be performed but at/on a lower frequency/long term basis.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (d)",
+        "provision_description": "The backup process should be automated where feasible.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (e)",
+        "provision_description": "If the scope of certification includes cloud environment:\n\nCloud\n–\tThe organisation shall understand the role and responsibility between itself and the CSP in terms of data backup, e.g., cloud shared responsibility model, scope, and coverage of the cloud service.\n–\tData backup shall be carried out by the organisation, e.g., storing the backups in a hard disk drive, purchasing the backup services by the CSP, and adopting multiple clouds to be used as backups.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (f)",
+        "provision_description": "If the scope of certification includes hardware assets such as mobile devices and/or IoT devices:\n\nMobile devices\n–\tEssential business information stored in mobile phones should be auto backed up and transferred to a secondary mobile phone or secondary storage for backup, e.g., SMS conversations or contact of an important client.\n\nIoT devices\n–\tIoT devices containing the organisation’s essential information should be backed up manually where automatic backup is not available, e.g., sensors in farms to improve operational safety and efficiency and in healthcare to monitor patients with greater precision to provide timely treatment.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (g)",
+        "provision_description": "All backups shall be protected from unauthorised access and be restricted to authorised personnel only. Backups should minimally be password-protected.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (h)",
+        "provision_description": "Backups shall be stored separately (i.e., offline) from the operating environment. Where feasible, backups should be stored offsite, e.g., separate physical location.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (i)",
+        "provision_description": "Frequent backups such as daily or weekly backups should be stored online to facilitate quick recovery, e.g., cloud backup storage.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (j)",
+        "provision_description": "Longer term backups such as monthly backups shall be stored offline in an external secure storage location, e.g., password-protected USB flash drives, encrypted external hard disks and/or tape storage at an alternative office location.",
+        "suggested_artefacts": "Documented information and/or implementation of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.8.4 (k)",
+        "provision_description": "As good practice, backups should be tested at least bi-annually, or more frequently, to ensure that business-critical systems and essential business information can be restored effectively.",
+        "suggested_artefacts": "Documented information and/or implementation of testing of systems backup.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  },
+  {
+    "clause_id": "A.9 Respond: Incident response – Be ready to detect, respond to, and recover from cybersecurity incidents",
+    "clause_description": "",
+    "provisions": [
+      {
+        "provision_id": "A.9.4 (a)",
+        "provision_description": "The organisation shall establish an up-to-date basic incident response plan to guide the organisation on how to respond to common cybersecurity incidents. Examples include phishing, data breach, ransomware. The plan shall contain details as follows:\n\n–\tClear roles and responsibilities of key personnel in the organisation involved in the incident response plan process.\n–\tProcedures to detect, respond, and recover from the common cybersecurity threat scenarios, e.g., phishing, ransomware, data breach.\n–\tCommunication plan and timeline to escalate and report the incident to internal and external stakeholders (such as regulators, customers, and senior management).",
+        "suggested_artefacts": "Incident response plan with guidance on how to respond to common cyber incidents.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.9.4 (b)",
+        "provision_description": "The incident response plan shall be made aware to all employees in the organisation that have access to the organisation’s IT assets and/or environment.",
+        "suggested_artefacts": "Incident response plan with guidance on how to respond to common cyber incidents.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.9.4 (c)",
+        "provision_description": "The organisation should conduct post- incident review and incorporate learning points to strengthen and improve the incident response plan.",
+        "suggested_artefacts": "Incident response plan with  post-incident review, improvement of plan and review history.",
+        "implementation_status": "",
+        "remarks": ""
+      },
+      {
+        "provision_id": "A.9.4 (d)",
+        "provision_description": "As good practice, the incident response plan should be reviewed at least annually.",
+        "suggested_artefacts": "Incident response plan with  post-incident review, improvement of plan and review history.",
+        "implementation_status": "",
+        "remarks": ""
+      }
+    ]
+  }
+]

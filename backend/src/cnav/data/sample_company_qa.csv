@@ -1,0 +1,71 @@
+Item,Questions,Audience,Response from meeting,(company) email response
+1,Who are your primary customers? Is it B2B or B2C? What are the services provided?,Owner,Multiple vendors providing service/platform. List of them. ,B2B
+2,What is Operating System used for end user and application currently?,"Owner, Purchaser or IT","WhatsApp, Autodesk, Adobe, Enscape - chaos.",Windows 11
+3,Do you know whether the OS used is already end of support?,IT,No,Don’t know
+4,Anyone looking at whether the used OS not more supported by vendor eg Microsoft?,IT,No,No
+5,Any asset inventory list? Both hardware and software. Who is managing it?,"Owner, Purchaser or IT",No,No
+6,Are there any machines running somewhere that you might not be aware? Who should be the one who gives the information?,IT,"Singtel, AP - TPLink.
+(need to follow up to get this information)",No
+7,Are there any security controls (i.e EDR)  installed in machines? ,"Owner, Purchaser or IT",Riding on the endpoint security comes with OS (likely Windows Defender),No
+8,Any VA scans conducted? Can share the frequency and remediations. Who is managing it?,IT,"Automatic, no one managing. User handling themselves.",No
+9,Is there a business continuity plan in place?,Owner,"no, need to documented down",No
+10,What are the company's critical functions?,"Owner,  IT","cant confirm, its been rewritten too much, and there are too many small parts that could affect us.
+
+(company) rely on many 3rd party vendor. if the service is disrupted with not enough time buffer, it will impact (company) services. There is a list of vendor for failover situation",Employees
+11,Any backup for (critical) services and data?,"Owner,  IT",not all laptop are backed up. Back up is stored in NAS but not encrypted but protected by password (1 folder allocated to 1 user),Yes
+12,are backups of critical data being performed regularly and stored securely?,"Owner,  IT",(company) does not back up regularly,Occasionally
+13,What is the backup plan if computer systems are down/affected? ,"Owner,  IT","not all laptop are backed up, (company) backup their files at nas. ",
+14,What manage your computer network? Any network diagram being maintained?,IT,"no network diagram, likely only access point, nas, isp, local machines.",No
+15,"Any firewall in place? Any firewall rules to filter malicious traffic? IP blocklisting to identify 
+and block IPs that show malicious activity",IT,unsure,Yes
+16,Any secondary DNS server available?,IT,unsure,
+17,Any other regulations than PDPA in your industry that your company has to comply?,"Owner,  IT",PDPA only,No
+18,Do you know what data has to be protected?,"Owner,  IT","yeap, event related files, finance documents, things like that",Yes
+19,where are the data stored? Are these data encrypted? How are the keys managed and stored?,"Owner,  IT",using normal office 365 business. No E3E5,
+20,Any security policies created for organization? Staff accessible and being told?,"Owner, IT, HR, employees",no,No
+21,"Any classification for sensitivity (Public, Confidential, Internal)",IT,"No classification but document with sensitivity information 
+may be generated",Yes
+22,Are there appropriate security measures and access control in place based on the data classification level?,IT,have identity authentication. ,No
+23,Location of data and retention period?,IT,"NAS, laptop, office 365, mobile phone",No
+24,Any 3rd party vendors you working with? Is there an inventory of outsourced service providers in place?,"Owner, IT",yes,Yes
+25,Any data processing agreements in place? ,"Owner, IT",no,No
+26,"Any regular security assessments  conducted to evaluate 3rd party vendors security controls, ensuring that they align with company security policies and outsourcing requirements?","Owner, IT",Don't do today,No
+27,"Is there a non-disclosure agreement form for third parties or external vendors who are working 
+with sensitive information to sign? ","Owner, IT",only for certain project such as key or high project. ,No
+28,"Is there any internal or external training you and your staff attended before? Any record ie in the form email or
+ invoices to prove?","Owner, IT, HR, employees",no,No
+29,"Are the topics covering Phishing, Password etc? Share the topics or training guides.","Owner, IT, HR, employees",no,No
+30,How do you test that the trainee walks away with the required knowledge? Is there a quiz conducted?,"Owner, IT, HR, employees",no,No
+31,Any existing Cyber hygiene practices and guidelines developed for employees to adopt in their daily operations?,"Owner, IT, HR, employees","no, only verbal reminder to employees",No
+32, is there a list of login accounts to workstations and servers of every employee in place?,"Owner, IT, HR",yes,Yes
+33,Is there a process with the necessary approvals to grant and revoke access?,"Owner, IT, HR",yes,Yes
+34,what is the currrent process for reporting any stolen/loss corporate device?,"Owner, IT, HR",Adhoc,Report to Director directly
+35,What are the current physical control? i.e card access door lock to authenticate and authorise entry,"Owner, IT, HR",Biometric - facial recognition. No Log but got cctv,Yes
+36,Is there a permanent office?,Owner,Yes,Yes
+37,Is there an access control policy in place?,"Owner, IT",no,No
+38,Are there MFA implemented? two-factor authentication (2FA),IT,"yes, using microsoft authenticator",No
+39,"Any controls in place i.e firewalls, EDR on endpoints to monitor account access to detect and identify any abnormalities such as multiple  failed logins within a short period of time, as well as logins during odd timings.",IT,"access to NAS is by password only, no additional access control",No
+40,Is there a process in place whereby employees report any suspicious email or attachment to the IT team and/or senior management immediately?,"Owner, IT, HR","Adhoc, Verbal",Report to Director directly
+41,Any anti-malware solutions in place?,IT,"yes, windows defender",No
+42,"Are there website whitelisting implemented, where employees can only visit the whitelisted sites?",IT,No,No
+43,Does the company maintain a local server (in physical office) or is it on cloud? Are the staff allowed to access these resources from external (i.e home),"Owner, IT",NAS physical,Yes
+44,"If so, is there VPN (virtual private network) to access company data when using personal device or other wireless access points","Owner, IT","No VPN. May consider VPN. No access to org NAS from outside org. 
+Physical access to NAS, not accessible online.",No
+45,Are the organisation's wireless networks visible from outside the office? Is the SSID hidden?,"Owner, IT","yes, ssid is not hidden but protected with password",Yes
+46,Does the organisation maintain a list of personal devices used to access organisation's networks? ,"Owner, IT, HR","no, but want to implement.",No
+47,Any disciplinary actions for employees when fail to comply to data security policy?,"Owner, IT, HR",don't have any at the moment,Yes
+48,Is there a incident response plan (IRP) in place for cybersecurity and data breach incident?,"Owner, IT",No,No
+49,"Is there a backup policy? What are the systems to back up, frequency, storage and recovery testing etc?",IT,no,No
+50,Is there a change request? Who is approving it and who manages it?,IT,"adhoc, verbal request",Report to Director directly
+51,Are the backup data encrypted?,IT,"copy and paste, not using any backup software/procesure",Yes
+52,"If the data is stored physically in the office, does the place have cctvs, security guards? Who has access to these data?",Owner,"cctv, office is located within a building that has their own security guard",Yes
+53,"Are there physical controls such as security guards, cctvs, vistors sign in, employee access cards in the office building?","Owner, HR","cctv, office is located within a building that has their own security guard. Facial recognition is used for emploees to access the office. ",Yes
+54,"what is the current procedure to dispose physical assets such as laptops, hard disks, USB?","Owner, IT, HR",there is no procedure currently,No procedure
+55,Are there any procedure in plan for media destruction in USB?,"Owner, IT, HR",there is no procedure currently,No
+56,What is the frequency of patching for vulnerabilites in software and OS? ,IT,"not controlled, only follow automatic updates",No
+57,"Does flood or any natural occurences affect the operations of organisation? If so, what is the disaster recovery plan when
+there is a fire/flood that destroy customers details in the system?","Owner, IT","not in place, can have a DR plan if needed",No
+58,Could you describe your current network setup?,,small-to-medium office network using TP-Link Omada for centralized configuration,
+59,"Are there any constraints, such as budget or existing hardware limitations?",,need to filter inbound and outbound traffic for compliance but don’t have the budget for a standalone firewall appliance,
+60,What physical access do visitors and employees have to the office?,,vistors only stay at reception area. Staff enters office by biometrics,
+61,Which key personnel do you currently have who would be involved in the incident response plan?,,IT team and vCISO with retainer ,
